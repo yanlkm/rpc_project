@@ -402,7 +402,7 @@ phenix_prog_1(char *host)
         matrice_note [2][0].note=result_5->note;
         strcpy(matrice_note[2][0].commentaire,(*result_5).commentaire); 
         matrice_note[2][0].commande_note=result_5->commande_note;
-         
+         tab_commande[5].num=999;
         strcpy(note_temporaire.commentaire,"Vraiment Incroyable ! je recommande !"); 
         note_temporaire.note=5; 
         note_temporaire.commande_note=tab_commande[5];
