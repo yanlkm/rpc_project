@@ -335,7 +335,7 @@ phenix_prog_1(char *host)
             tab_commande[a].detail=result_4->detail; 
             tab_commande[a].etat_commande=result_4->etat_commande;
             printf("\n\nRésumé de la commande de : Mr/Mme  %s\n",users[a].nom); 
-            printf("\n Commande n° :%d\n Total de la somme : %.2fEuros\n Statue Coammnde (0 =  En cours / 1 =  Annulée) : %d\n",tab_commande[a].num,(double)tab_commande[a].prix,tab_commande[a].etat_commande);
+            printf("\n Commande n° :%d\n Total de la somme : %.2fEuros\n Statue Coammnde (1  =  En cours / 0 =  Annulée) : %d\n",tab_commande[a].num,(double)tab_commande[a].prix,tab_commande[a].etat_commande);
             }
             else 
             {
